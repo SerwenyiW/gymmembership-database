@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM adatbázis</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="usersContainer">
+    </div>
+    <div id="footer">
+        <h3>Új tagság</h3>
+        <div id="newUser">
+            <form action="newuser" method="post">
+                <label for="user">Neve: </label>
+                <input type="text" name="user" id="username" placeholder="Neve" required>
+                <label for="tickettype">Bérlet típus: </label>
+                <select name="tickettype" id="tickettype">
+                    <option value="1hetes">1 hetes</option>
+                    <option value="1havi">1 hónap</option>
+                </select>
+                <button type="submit">Hozzáadás</button>
+            </form>
+        </div>
+    </div>
+    <div id="tempDiv">
+    </div>
+    <script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>

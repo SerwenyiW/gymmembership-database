@@ -1,0 +1,94 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#userContainer {
+    position: relative;
+    width: 100%; 
+    height: 90px; 
+    display: flex;
+    border-style: solid;
+    border-width: 5px;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-color: black;
+}
+
+#userContainer h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    width: 330px;
+    text-align: center;
+}
+
+#tempDiv {
+    height: 60px;
+}
+
+#info {
+    display: flex;
+}
+
+#info h2 {
+    padding-top: 10px;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+#footer {
+    position: fixed;
+    left: 0;    
+    bottom: 0px;
+    background-color: black;
+    height: 60px;
+    width: 100%;
+}
+
+#footer h3 {
+    padding-top: 3px;
+    text-align: center;
+}
+
+#newUser form {
+    width: 100%;
+    display: flex;
+}
+
+#newUser form button {
+    margin-right: 10%;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    top: 25%;
+}
+
+#newUser form label {
+    margin-left: 5%;
+}
+
+#newUser form label:not(:first-of-type) {
+    margin-left: 10%;
+}
+
+#newUser form input {
+    width: 13%;
+}
+
+#buttons {
+    top: 30%;
+    right: 0;
+    margin-right: 5%; 
+    position:absolute;
+}
+
+#buttons button {
+    font-size:25px;
+}

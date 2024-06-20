@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <div id="userContainer" style="background-color: ${dayleft > 3 ? "green" : dayleft <= 1 ? "red" : "orange"};">
                         <h1>Név: ${username}</h1>
                         <div id="info">
-                            <h2>Vársálás napja: ${ticketday}</h2>
+                            <h2>Vásárlás napja: ${ticketday}</h2>
                             <h2>Bérlet típus: ${tickettype}</h2>
                             <h2>Bérlet lejár: ${dayleft} nap múlva!</h2>
                         </div>
